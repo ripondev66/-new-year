@@ -1,0 +1,203 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.all {
+  max-width: 1320px;
+  margin: auto;
+}
+
+/* common color  start*/
+.common-color {
+  color: #f00;
+}
+.common-details-color {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+}
+/* common color  end*/
+
+/* new-year style  */
+.new-year {
+  text-align: center;
+  background-image: url(image/Banner.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  margin-top: 30px;
+}
+.year-info {
+  padding-top: 150px;
+  color: white;
+}
+.heding-text {
+  font-size: 32px;
+}
+.sub-hedig-text {
+  font-size: 72px;
+}
+
+/* categories style */
+
+.categories-info {
+  text-align: center;
+  color: #ff0000;
+  margin-top: 120px;
+}
+.categories-h {
+  font-size: 88px;
+}
+.categories-p {
+  font-size: 24px;
+}
+.categories-title {
+  color: #070211;
+  font-size: 48px;
+}
+.categories-image {
+  background-image: url(image/New-Year.png);
+  height: 500px;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  width: 800px;
+}
+
+/* welcome style */
+.welcome-party {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background-image: url(image/Vectorrr.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+.party-info {
+  color: white;
+}
+.party-h {
+  font-size: 60px;
+}
+.party-p {
+  color: #ffffffcc;
+}
+
+/* Hotel style */
+.hotel {
+  height: 482px;
+  border-radius: 8px;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+}
+.hotel-info {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 100px;
+}
+.join-btn {
+  background-color: #ff0000;
+  border: none;
+  padding: 16px 32px;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+/* NEW BEST OFFER STYLE */
+.offer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  align-items: center;
+}
+.best-p {
+  color: #ff0000;
+  font-size: 24px;
+}
+.best-soon {
+  color: #070211;
+  font-size: 48px;
+}
+.ellipse-image {
+  width: 300px;
+  border: 15px solid #f00;
+  border-radius: 100%;
+  padding: 20px;
+}
+.best-date {
+  color: #ff0000;
+}
+
+/* FUNCTIONAL */
+.holidays {
+  font-size: 72px;
+}
+
+.functional {
+  margin-top: 120px;
+}
+.functional-info {
+  text-align: center;
+}
+
+/* portfolio style */
+.portfolio {
+  margin-top: 120px;
+}
+.gallery {
+  padding-top: 20px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Newsletter  */
+
+.newsletter {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 600px;
+  padding-top: 80px;
+  margin-top: 120px;
+}
+.newsletter-text {
+  text-align: center;
+}
+.input-value {
+  display: flex;
+  margin: auto;
+  width: 600px;
+}
+.email {
+  width: 400px;
+  border: none;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding-left: 20px;
+}
+.subscribe {
+  background-color: #ff0000;
+  color: white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: none;
+  padding: 20px 56px;
+  font-size: 20px;
+}
+
+/* footer style  */
+.footer {
+  background-color: #070211;
+  margin-top: 120px;
+}
+.footer-icon{
+  text-align: center;
+  margin: 30px 0px;
+}
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
